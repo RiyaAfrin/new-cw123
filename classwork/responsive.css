@@ -1,1 +1,30 @@
-/* Your responsive CSS styles go here */
+@media(min-width:1000px) {
+    
+.left{
+	background: #171a29;
+}
+  }
+  
+  @media(min-width:501px) and (max-width:999px) {
+    .left .img_holder{
+        text-align: center;
+        padding: 15px 0;
+    }
+
+  } 
+  
+  
+  @media(max-width:500px) {
+    
+    .left .img_holder{
+        text-align: center;
+        padding: 13px 0;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
