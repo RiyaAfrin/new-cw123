@@ -9,19 +9,20 @@
 	font-family: 'Ubuntu', sans-serif;
 }
 
+
 body{
-	background: linear-gradient(to right, #3525af, #9153c9);
+	background: linear-gradient(to right, #10254b, #032538);
 }
 
 .resume{
 	width: 800px;
-	background: #fff;
+	background: rgb(255, 255, 255);
 	margin: 25px auto;
 	display: flex;
 }
 
 .left{
-	background: #292b2f;
+	background: #565a6d;
 	width: 250px;
 	padding: 0 20px;
 }
@@ -50,10 +51,8 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	padding-bottom: 10px;
-	color: #3525af;
+	color: #aba8c4;
 	position: relative;
-	text-align: right;
-	margin-bottom: 15px;
 }
 
 .title:before{
@@ -63,16 +62,16 @@ body{
 	right: 0;
 	width: 50px;
 	height: 3px;
-	background: #3525af;
+	background: #e1e1e6;
 }
 
 .left .icon{
 	font-size: 20px;
-	color: #9153c9;
+	color: #221a61;
 }
 
 .left .text{
-	color: #9153c9;
+	color: #221a61;
 	text-transform: uppercase;
 	font-size: 13px;
 }
@@ -81,7 +80,7 @@ body{
 	display: flex;
 	align-items: center;
 	width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 13px;
 }
 
 .contact .li_wrap .icon{
@@ -121,7 +120,7 @@ body{
 }
 
 .skills .li_wrap{
-	background: #fff;
+	background: rgb(236, 234, 240);
 }
 
 .skills .li_wrap .text,
@@ -130,16 +129,16 @@ body{
 }
 
 .hobbies .li_wrap{
-	border: 2px solid #fff;
+	border: 2px solid rgb(236, 234, 241);
 }
 
 .hobbies .li_wrap .icon,
 .hobbies .li_wrap .text{
-	color: #fff;
+	color: rgb(45, 23, 87);
 }
 
 .hobbies .li_wrap:hover{
-	background: #fff;
+	background: rgb(236, 231, 231);
 }
 
 .hobbies .li_wrap:hover .icon,
@@ -148,27 +147,23 @@ body{
 }
 
 .header{
-	background: #292b2f;
+	background: #565a6d;
 	padding: 15px 30px;
 	color: #fff;
 	height: 240px;
 }
 
 .header .name{
-	font-size: 52px;
+	font-size: 54px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #3525af;
+	color: #090811;
 }
 
-.header .role{
-	font-weight: 300;
-	font-size: 20px;
-}
 
 .header .about{
 	margin-top: 20px;
-	line-height: 26px;
+	line-height: 30px;
 }
 
 .right_inner{
@@ -183,11 +178,6 @@ body{
 .right_inner .li_wrap{
 	display: flex;
 	margin-bottom: 15px;
-}
-
-.right_inner .li_wrap .date {
-    width: 125px;
-    color: #9153c9;
 }
 
 .right_inner .li_wrap .info{
@@ -232,4 +222,10 @@ body{
 	width: 2px;
 	height: 90%;
 	background: #9153c9;
+}
+#wrapper{
+    padding: 1px;
+}
+.q{
+  font-size: 2px;  
 }
