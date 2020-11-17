@@ -1,8 +1,8 @@
 @media(min-width:1000px) {
     
-.left{
-	background: #171a29;
-}
+    .left{
+        background: #171a29;
+    }
   }
   
   @media(min-width:501px) and (max-width:999px) {
